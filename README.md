@@ -35,4 +35,4 @@ out
 
 ## Additional notes
 
-You _have_ to edit combine-cds.sh. Change the MP3 Tags and change #UNCOMMENT_WHEN_READY="duh" to UNCOMMENT_WHEN_READY="duh"
+You _have_ to edit the scripts before running. Change the MP3 Tags and change #UNCOMMENT_WHEN_READY="duh" to UNCOMMENT_WHEN_READY="duh"
