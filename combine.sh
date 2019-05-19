@@ -2,9 +2,6 @@
 
 ### EDIT THESE VARIABLES ###
 
-# Uncomment to make script work
-#UNCOMMENT_WHEN_READY="duh"
-
 # MP3 TAGS
 _YEAR="2004"
 _ALBUM="Die Zwerge"
