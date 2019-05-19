@@ -1,5 +1,5 @@
 # combine-mp3
-Bash scripts to combine MP3s
+Bash scripts to combine MP3s and add tags
 
 ## Requirements
 mp3wrap
