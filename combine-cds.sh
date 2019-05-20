@@ -25,6 +25,7 @@ _ALBUM="Die Zwerge"
 _ARTIST="Markus Heitz"
 _TITLE="Der Krieg der Zwerge"
 _GENRE="Fantasy"
+_TRACKNUM="1"
 
 ############################
 
@@ -62,7 +63,7 @@ mp3wrap final.mp3 *.mp3
 mv final_MP3WRAP.mp3 final.mp3
 
 echo -e "\n\n\e[1;45m Setting tags \e[0m\e[49m\n"
-id3v2 final.mp3 -y "$_YEAR" -A "$_ALBUM" -a "$_ARTIST" -t "$_TITLE" -g "$_GENRE"
+id3v2 final.mp3 -y "$_YEAR" -A "$_ALBUM" -a "$_ARTIST" -t "$_TITLE" -g "$_GENRE" -T "$_TRACKNUM"
 
 echo -e "\n\e[1;45m Fixing errors \e[0m\e[49m"
 echo "  - Log: $_BASEDIR/out/mp3val.log"
