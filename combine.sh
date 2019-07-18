@@ -15,6 +15,20 @@ _TRACKNUM="1"
 
 ############################
 
+# Check for dependencies
+if [ ! `command -v mp3wrap` ] ; then
+        echo "mp3wrap missing"
+        exit 1
+fi
+if [ ! `command -v id3v2` ] ; then
+        echo "id3v2 missing"
+        exit 1
+fi
+if [ ! `command -v mp3val` ] ; then
+        echo "mp3val missing"
+        exit 1
+fi
+
 
 if [ -z ${UNCOMMENT_WHEN_READY+x} ]; then
         echo -e "\e[1;41m Error: Change variables before running! \e[0m"
